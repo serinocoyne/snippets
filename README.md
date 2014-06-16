@@ -41,6 +41,7 @@ jquery
 
 analytics
 =========
+```
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -54,25 +55,33 @@ analytics
   })();
 
 </script>
+```
 
 event tracking
 ==============
+```
 ga('send', 'event', 'Tickets', 'Click', 'label');
+```
 
 C5 Snippets
 ===========
+```
 <?php $a = new Area('Content'); $a->display($c); ?>
 <?php Loader::element('header_required'); ?>
 <?php Loader::element('header_required'); ?>
 <?php Loader::element('links'); ?>
 <?=$this->getThemePath()?>/
+```
 
 C5 Attributes
 =============
+```
 replace_link_with_first_in_nav
+```
 
 AJAX Mailing List Submit
 ========================
+```
 $(function () {
     $('#subForm').submit(function (e) {
         e.preventDefault();
@@ -88,10 +97,13 @@ $(function () {
         });
     });
 });
+```
 
 meta
 ====
+```
 <meta name="viewport" content="width=device-width">
 <meta property="og:title" content="title" />
 <meta property="og:description" content="description" />
 <meta property="og:image" content="thumbnail_image" />
+```
