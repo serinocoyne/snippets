@@ -1,5 +1,6 @@
 clearfix
 ========
+```
 .clearfix:before,
 .clearfix:after {
     content: " ";
@@ -10,7 +11,8 @@ clearfix
 
 .clearfix {
     *zoom: 1;}
-    
+```
+
 embed container
 ==============
 ```
