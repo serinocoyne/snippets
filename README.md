@@ -13,6 +13,7 @@ clearfix
     
 embed container
 ==============
+```
 .embed-container {
     position: relative;
     padding-bottom: 50%; /* 16/9 ratio */
@@ -28,10 +29,13 @@ embed container
     left: 0;
     width: 100%;
     height:100%;}
-    
+```
+
 jquery
 ======
+```
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script>
+```
 
 analytics
 =========
